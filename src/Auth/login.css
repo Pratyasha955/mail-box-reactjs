@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.mt-3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-danger {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #ffecec;
+    padding: 10px;
+    border: 1px solid #ffb3b3;
+    border-radius: 5px;
+}
